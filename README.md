@@ -1,6 +1,7 @@
 # powershell-setup
 
-Automacao de setup do PowerShell 7 em Windows em duas etapas:
+Automação de setup do PowerShell 7 em Windows em duas etapas:
+
 1. Instalar e preparar ambiente (winget, pwsh, Oh My Posh, ferramentas essenciais).
 2. Publicar profile e configuracoes do repositorio para o destino derivado de $PROFILE.
 
@@ -102,12 +103,12 @@ pwsh -ExecutionPolicy Bypass -File .\Scripts\test-setup.ps1
 ## Troubleshooting rapido
 
 - winget nao encontrado:
-	- Atualize/instale App Installer no Windows.
-	- Abra novo terminal e rode novamente a etapa 1.
+  - Atualize/instale App Installer no Windows.
+  - Abra novo terminal e rode novamente a etapa 1.
 - Oh My Posh sem icones corretos:
-	- Configure o terminal para usar Nerd Font (JetBrainsMono Nerd Font).
+  - Configure o terminal para usar Nerd Font (JetBrainsMono Nerd Font).
 - Policy bloqueando scripts:
-	- Use -ExecutionPolicy Bypass no comando de execucao.
-	- Opcionalmente rode Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned.
+  - Use -ExecutionPolicy Bypass no comando de execucao.
+  - Opcionalmente rode Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned.
 - Ambiente corporativo sem Store:
-	- Execute etapa 1 em modo manual, instalando dependencias aprovadas pela TI.
+  - Execute etapa 1 em modo manual, instalando dependencias aprovadas pela TI.
