@@ -5,10 +5,12 @@ param(
     [switch]$SkipExecutionPolicy,
     [string[]]$PackageIds = @(
         'Microsoft.PowerShell',
+        'Microsoft.Sudo',
         'JanDeDobbeleer.OhMyPosh',
         'JetBrains.JetBrainsMono.NerdFont',
         'eza-community.eza',
         'junegunn.fzf',
+        'jdx.mise',
         'ajeetdsouza.zoxide',
         'sharkdp.bat',
         'sharkdp.fd',

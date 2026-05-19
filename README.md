@@ -27,9 +27,10 @@ Observacao: o fluxo tenta elevar privilegio apenas quando necessario.
 Executa instalacao/atualizacao de pacotes via winget:
 
 - Microsoft.PowerShell
+- Microsoft.Sudo
 - JanDeDobbeleer.OhMyPosh
 - JetBrains.JetBrainsMono.NerdFont
-- eza, fzf, zoxide, bat, fd, ripgrep
+- eza, fzf, mise, zoxide, bat, fd, ripgrep
 - git, gh, 7zip, neovim
 
 Comando:
