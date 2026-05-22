@@ -131,4 +131,5 @@ foreach ($file in $requiredFiles) {
 }
 
 Write-Host "`nEtapa 2 concluida." -ForegroundColor Green
-Write-Host 'Proximo passo: executar Scripts/test-setup.ps1'
+Write-Host 'Proximo passo: executar Scripts/stage3-python.ps1 (ferramentas Python globais via pipx)'
+Write-Host 'Em seguida: Scripts/test-setup.ps1'

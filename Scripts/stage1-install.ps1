@@ -151,3 +151,4 @@ foreach ($command in $commandsToCheck) {
 
 Write-Host "`nEtapa 1 concluida." -ForegroundColor Green
 Write-Host 'Proximo passo: executar Scripts/stage2-deploy.ps1'
+Write-Host 'Em seguida: Scripts/stage3-python.ps1 (ferramentas Python globais via pipx)'
